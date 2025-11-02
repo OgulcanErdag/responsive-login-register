@@ -23,28 +23,34 @@ Toggle between **Sign in** and **Create account**, with floating labels, passwor
 
 ## Folder Structure
 
+```
+.
 ├── assets
-│ ├── css
-│ │ └── styles.css
-│ ├── scss
-│ │ ├── base
-│ │ │ └── \_base.scss
-│ │ ├── components
-│ │ │ ├── \_breakpoints.scss
-│ │ │ └── \_login.scss
-│ │ ├── config
-│ │ │ └── \_variables.scss
-│ │ └── layout
-│ │ └── styles.scss
-│ ├── img
-│ │ ├── bg-img.jpg
-│ │ ├── icon-\*.svg
-│ │ └── mask-blob.svg
-│ └── js
-│ └── main.js
+│   ├── css
+│   │   └── styles.css
+│   ├── scss
+│   │   ├── base
+│   │   │   └── _base.scss
+│   │   ├── components
+│   │   │   └── _breakpoints.scss
+│   │   ├── layout
+│   │   │   └── styles.scss
+│   │   ├── pages
+│   │   │   └── _login.scss
+│   │   └── config
+│   │       └── _variables.scss
+│   ├── img
+│   │   ├── bg-img.jpg
+│   │   ├── icon-apple.svg
+│   │   ├── icon-facebook.svg
+│   │   ├── icon-google.svg
+│   │   └── mask-blob.svg
+│   └── js
+│       └── main.js
 ├── index.html
 ├── preview.png
 └── README.md
+```
 
 ## Getting Started
 
